@@ -351,6 +351,8 @@ print(year,month,day,sep="-")
 a = "안녕하세요."
 b = "반갑습니다."
 
-print(a,b,end="\n")
-print(a,b,end="")
+print(a,end=" ")
+print(b)
+print(a,end="")
+print(b)
 
