@@ -12,7 +12,7 @@ root.title("Jeffkim GUI")
 # 파일 추가
 def add_file():
     files = filedialog.askopenfilenames(title="이미지 파일을 선택하세요.", filetypes=(("PNG 파일", "*.png"), ("모든 파일", "*.*")),\
-                                         initialdir=r"C:\Users\김준섭\Desktop\GUI_" ) # 최초에 사용자가 지정한 경로를 보여줌
+                                         initialdir=r"<URL>" ) # 최초에 사용자가 지정한 경로를 보여줌
     
 # 사용자가 선택한 파일 목록
     for file in files:
